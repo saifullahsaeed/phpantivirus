@@ -1,0 +1,247 @@
+Common classes package changelog.
+
+=== VERSION RELEASE GUIDELINES ===
+The common classes package adopts and adheres to SemVer (Semantic Versioning).
+For more information about SemVer, please refer to:
+- https://semver.org/
+
+Detailed version release guidelines for the common classes package can be
+found at:
+- https://github.com/Maikuolan/Common/blob/v2/CONTRIBUTING.md#the-common-classes-package-code-style-guidelines
+
+=== Changes made since last versioned release ===
+
+(none)
+
+=== Version/Release 2.6.1 ===
+PATCH RELEASE.
+
+- [2021.05.21; Maikuolan]: Adjusted the ints returned by L10N's int3Type3 so
+  they'd make more sense. Added some more languages to L10N's rules
+  documentation.
+
+- [2021.05.22; Maikuolan]: Added a public version constant to all classes,
+  since it might be needed by some implementations to ensure compatibility.
+  Improved and refactored some of the docblock comments across all classes.
+  Added an exception to the Matrix handler for when the number of dimensions
+  given to iterateCallback doesn't match the Matrix's number of dimensions.
+  Added tests for the matrix handler, the delayed file IO, the events
+  orchestrator, and the request handler classes.
+
+Caleb M (Maikuolan),
+May 22, 2021.
+
+=== Version/Release 2.6.0 ===
+MINOR RELEASE.
+
+- [2021.03.11; Maikuolan]: Added some missing return type declarations.
+
+- [2021.04.09; Maikuolan]: Added a new class to the repository, "Operation".
+
+- [2021.04.23; Bug-fix; Maikuolan]: Found a fixed an issue with function calls
+  from the dataTraverse method of the newly added Operation class.
+
+Caleb M (Maikuolan),
+April 24, 2021.
+
+=== Version/Release 2.5.0 ===
+MINOR RELEASE.
+
+- [2020.12.07; Maikuolan]: Updated the number formatter to prevent leading
+  decimal separators in the absence of representing any whole digits.
+
+- [2020.12.07; Maikuolan]: Added support for dozenal/duodecimal numerals.
+
+- [2021.01.10; Maikuolan]: Added a new class to the repository, "Request".
+
+- [2021.01.25; Maikuolan]: Added support for fullwidth numerals.
+
+- [2021.02.19; Maikuolan]: Added support for null values and folded multi-line
+  values to the YAML handler, plus some additional aliases for true and false.
+  Also updated some of the test files.
+
+- [2021.02.20; Maikuolan]: Added support for __toString and for anchors to the
+  YAML handler. Also updated some PHPDocs.
+
+- [2021.02.22; Maikuolan]: Added tests for the Demojibakefier class.
+
+Caleb M (Maikuolan),
+February 22, 2021.
+
+=== Version/Release 2.4.0 ===
+MINOR RELEASE.
+
+- [2020.11.27; Maikuolan]: Ditched external test frameworks in favour of GitHub
+  Actions. Replaced existing tests. (More work needs to eventually be done
+  towards tests. This will eventually happen at some point).
+
+- [2020.12.01; Maikuolan]: Refactored the number formatter, improving the
+  conversion of fractions between different bases, and added two new character
+  sets.
+
+- [2020.12.03; Maikuolan]: Added tests for the NumberFormatter class and also
+  added some more character sets.
+
+Caleb M (Maikuolan),
+December 4, 2020.
+
+=== Version/Release 2.3.3 ===
+PATCH RELEASE.
+
+- [2020.07.05; Maikuolan]: Slightly refactored the cache handler.
+
+- [2020.07.06; Maikuolan]: Added the ability to the cache handler to enforce
+  hard limits for key names.
+
+- [2020.07.14; Maikuolan]: Removed some accidental duplicates from the
+  Demojibakefier's supported() list.
+
+- [2020.07.17; Maikuolan]: Slightly refactored DelayedIO.
+
+- [2020.09.30; Maikuolan]: Added the ability to split strings into segments to
+  the demojibakefier.
+
+Caleb M (Maikuolan),
+September 30, 2020.
+
+=== Version/Release 2.3.2 ===
+PATCH RELEASE.
+
+- [2020.06.15; Bug-fix; Maikuolan]: Small but critical typo introduced by the
+  previous commit to the events orchestrator; Fixed and immediately pushing new
+  patch release.
+
+Caleb M (Maikuolan),
+June 15, 2020.
+
+=== Version/Release 2.3.1 ===
+PATCH RELEASE.
+
+- [2020.06.11; Maikuolan]: Slightly improved some PHPDoc annotations.
+
+- [2020.06.15; Maikuolan]: Added the ability to the events orchestrator's
+  fireEvent method to accept any number of optional parameters to be passed by
+  reference (v2 only).
+
+Caleb M (Maikuolan),
+June 15, 2020.
+
+=== Version/Release 2.3.0 ===
+MINOR RELEASE.
+
+- [2020.01.01; Bug-fix; Maikuolan]: The cache handler's PDO query template for
+  deleting expired cache entries was malformed; Fixed.
+
+- [2020.01.24; Maikuolan]: Added a new class to the repository, "Matrix".
+
+- [2020.03.09; Maikuolan]: Updated the matrix handler's documentation.
+
+Caleb M (Maikuolan),
+March 9, 2020.
+
+=== Version/Release 2.2.2 ===
+PATCH RELEASE.
+
+- [2019.12.10; Maikuolan]: Added __toString() to the ComplexStringHandler class
+  so that using the object as a string should now have the same effect as
+  calling the recompile() method.
+
+- [2019.12.26; Maikuolan]: Added some new character sets and related options to
+  the number formatter.
+
+- [2019.12.27; Bug-fix; Maikuolan]: The cache handler's mechanism for creating
+  missing tables in PDO used a malformed query and didn't work properly; Fixed.
+
+Caleb M (Maikuolan),
+December 27, 2019.
+
+=== Version/Release 2.2.1 ===
+PATCH RELEASE.
+
+- [2019.10.23; Maikuolan]: Removed some unnecessary guard code.
+
+- [2019.11.04; Maikuolan]: Updated the Cache class to use REPLACE INTO instead
+  of ON DUPLICATE KEY for SET_QUERY (SQLite and others don't properly support
+  the latter). Added the checkTablesPDO method to try to automatically create a
+  table for the Cache class instance to use when PDO is enabled.
+
+Caleb M (Maikuolan),
+November 4, 2019.
+
+=== Version/Release 2.2.0 ===
+MINOR RELEASE.
+
+- [2019.09.25; Maikuolan]: Added a new class to the repository, "Events".
+
+- [2019.09.26; peter279k]: Added tests for the ComplexStringHandler class.
+
+Caleb M (Maikuolan),
+October 2, 2019.
+
+=== Version/Release 2.1.0 ===
+MINOR RELEASE.
+
+- [2019.05.29; Maikuolan]: Added some new plural integer rules to the L10N
+  class, extending the number of languages it can potentially support.
+
+- [2019.06.27; Maikuolan]: Added a new class to the repository, "Number
+  Formatter".
+
+- [2019.08.17; Maikuolan]: Added the ability to chain together multiple L10N
+  objects via L10N's fallback mechanism.
+
+- [2019.08.23; Maikuolan]: Added a new class to the repository, "Delayed file
+  IO class".
+
+Caleb M (Maikuolan),
+August 26, 2019.
+
+=== Version/Release 2.0.0 ===
+MAJOR RELEASE (BACKWARDS INCOMPATIBLE).
+
+- [2019.05.10; Maikuolan]: Fixed some wrong PHPDoc declarations, slightly
+  refactored, and added PHP7-style type hinting and return type declarations
+  for all methods across all classes (where relevant). Changed the names of
+  some constants to better conform with PSR-1.
+
+- [2019.05.23; Maikuolan]: Completed writing all documentation for all classes
+  currently provided by the package.
+
+Caleb M (Maikuolan),
+May 29, 2019.
+
+=== Version/Release 1.1.0 ===
+MINOR RELEASE.
+
+- [2019.03.26; Maikuolan]: Added a new class to the repository, "Complex string
+  handler".
+
+- [2019.03.30; peter279k]: Added support for unit testing and added some tests
+  for the L10N and YAML classes.
+
+- [2019.04.02; Maikuolan]: Added a new class to the repository, "A simple,
+  unified cache handler".
+
+- [2019.04.09; Maikuolan]: Slightly adjusted the file reading part of the cache
+  handler to account for some potential edge-case problems on some servers.
+
+- [2019.04.15; Bug-fixes; Maikuolan]: The YAML class sometimes produced
+  extraneous whitespace on lines that define arrays when using reconstruct to
+  reconstruct YAML data from an array, and sometimes couldn't correctly process
+  subarrays inside numeric arrays; Fixed.
+  Refer github.com/Maikuolan/Common/issues/2
+
+- [2019.04.15; Maikuolan]: Added the ability to reconstruct nonprintable binary
+  to the YAML class.
+
+- [2019.04.28; Maikuolan]: Added a new class to the repository,
+  "Demojibakefier".
+
+Caleb M (Maikuolan),
+April 29, 2019.
+
+=== Version/Release 1.0.0 ===
+FIRST TAGGED RELEASE.
+
+Caleb M (Maikuolan),
+February 28, 2019.

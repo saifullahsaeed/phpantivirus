@@ -1,0 +1,13 @@
+{
+    "origin": "::1",
+    "objects_scanned": 0,
+    "detections_count": 1,
+    "scan_errors": 0,
+    "hash_references": "Data not available.:97:.\/av-config.json\n",
+    "why_flagged": [{
+        "Data not available.:97:.\/av-config.json": "Filetype blacklisted (.\/av-config.json)!"
+    }],
+    "why_flaggeds": [
+        ""
+    ]
+}

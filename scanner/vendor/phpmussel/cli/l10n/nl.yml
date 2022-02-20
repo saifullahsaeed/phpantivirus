@@ -1,0 +1,63 @@
+##\
+# This file is a part of the phpMussel\CLI package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Dutch language data (last modified: 2020.07.04).
+##/
+
+bad_command: "Ik begrijp niet dat bevel, sorry."
+cli_algo_not_supported: "Opgegeven algoritme wordt niet ondersteund."
+cli_failed_to_complete: "Mislukt om het voltooien te scannen"
+cli_is_not_a: "%s is geen bestand of map."
+cli_ln2: |
+ Dank u voor het gebruiken van phpMussel, een PHP-script ontwikkeld om
+ trojans, virussen, malware en andere bedreigingen te ontworpen, binnen
+ bestanden geüpload naar uw systeem waar het script is haakte, gebaseerd op
+ de signatures van ClamAV en anderen.
+                                     ~ ~ ~
+ PHPMUSSEL COPYRIGHT 2013 en verder GNU/GPL V.2 van Caleb M (Maikuolan).
+                                     ~ ~ ~
+cli_ln3: |
+ Momenteel phpMussel is in CLI-modus (commandlijn interface). Om scannen
+ een bestand of map, typ "scan", gevolgd door de naam van het bestand of de
+ map die u wilt phpMussel te scannen en druk op Enter; Typ "c" en druk op
+ Enter voor een lijst op CLI-modus commando's; Typ "q" en druk op Enter om
+ te stoppen.
+cli_pe1: "Geen geldig PE-bestand!"
+cli_pe2: "PE Secties:"
+cli_signature_placeholder: "UW-SIGNATURE-NAAM"
+cli_working: "Aan de gang"
+cli_commands: |
+ q
+ - Verlaten CLI.
+ - Aliassen: quit, exit.
+ hash_file:[algo] [bestandsnaam]
+ - Genereer hash signatures van bestanden.
+ hash:[algo] [string]
+ - Genereer hash signature van string.
+ algo
+ - Maak een lijst van alle ondersteunde algoritmen.
+ hex_encode [string]
+ - Converteren van binaire string naar hexadecimaal.
+ - Alias: x.
+ hex_decode [string]
+ - Converteren van hexadecimaal naar binaire string.
+ base64_encode [string]
+ - Converteren van binaire string naar base64 string.
+ - Alias: b.
+ base64_decode [string]
+ - Converteren van base64 string naar binaire string.
+ pe_meta [bestandsnaam]
+ - Haal metagegevens uit een PE-bestand.
+ url_sig [string]
+ - Genereren URL-scanner signatures.
+ scan [bestandsnaam]
+ - Scannen bestand of map.
+ - Alias: s.
+ c
+ - Print dit commando lijst.

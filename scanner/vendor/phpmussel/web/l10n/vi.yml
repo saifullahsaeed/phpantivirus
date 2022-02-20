@@ -1,0 +1,43 @@
+##\
+# This file is a part of the phpMussel\Web package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Vietnamese language data (last modified: 2020.07.13).
+##/
+
+PrivacyPolicy: "Chính sách bảo mật"
+config_web: "Cấu hình cho trình xử lý tải lên."
+config_web_forbid_on_block: "phpMussel nên gửi 403 Forbidden chúng với các thông điệp tải lên tập tin bị chặn, hoặc chỉ sử dụng 200 OK? False = Không (200); True = Vâng (403) [Mặc định]."
+config_web_ignore_upload_errors: "Nói chung, tùy chọn này nên bị vô hiệu hóa, trừ khi nó cần thiết cho chức năng đúng của phpMussel trên hệ thống cụ thể của bạn. Thông thường, khi bị vô hiệu, khi phpMussel phát hiện sự hiện diện của elements (yếu tố) trong array <code>$_FILES</code>, nó sẽ cố gắng để bắt đầu quét của các tập tin mà những yếu tố đại diện, và, nếu những yếu tố này là trống, phpMussel sẽ trả về thông báo lỗi. Đây là hành vi thích hợp cho phpMussel. Tuy nhiên, đối với một số CMS, phần tử rỗng trong <code>$_FILES</code> có thể xảy ra như là kết quả của các hành vi tự nhiên của những CMS, hay lỗi có thể được báo cáo khi không có bất kỳ, và trong trường hợp này, các hành vi tự nhiên cho phpMussel sẽ gây trở ngại với các hành vi bình thường của những CMS. Nếu một tình huống như vậy xảy ra cho bạn, bật tùy chọn này sẽ hướng dẫn phpMussel không cố gắng để bắt đầu quét cho phần tử rỗng, bỏ qua chúng khi tìm thấy và không trả lại bất kỳ thông báo lỗi liên quan, do đó cho phép tiếp tục của yêu cầu trang. False = TẮT; True = TRÊN."
+config_web_magnification: "Phóng to chữ. Mặc định = 1."
+config_web_max_uploads: "Số lượng tối đa của tập tin cho phép để quét trong khi quét tập tin tải lên trước khi hủy bỏ quá trình quét và thông báo cho người dùng rằng họ đang tải lên quá nhiều cùng một lúc! Trong lý thuyết, cung cấp bảo vệ chống lại một cuộc tấn công nhờ đó mà một kẻ tấn công cố gắng DDoS hệ thống hay CMS của bạn bằng cách quá tải phpMussel để làm chậm quá trình PHP đến khi nó dừng lại. Đề xuất: 10. Bạn có thể muốn tăng hoặc giảm số này tùy thuộc vào tốc độ của phần cứng của bạn. Chú ý rằng con số này không tính đến hoặc bao gồm các nội dung của kho lưu trữ."
+config_web_theme: "Tính thẩm mỹ để sử dụng cho trang "Sự tải lên đã bị từ chối"."
+config_web_uploads_log: "Trường hợp tất cả các tải lên bị chặn nên được đăng nhập. Chỉ định một tên tập tin, hoặc để trống để vô hiệu hóa."
+denied: "Sự tải lên đã bị từ chối!"
+denied_reason: "Sự tải lên của bạn đã bị từ chối bởi lý do dưới đây:"
+scan_unauthorised_upload: "Sự thay đỗi của tập tin không được phép tải lên được phát hiện!"
+scan_unauthorised_upload_or_misconfig: "Sự thay đỗi của tập tin không được phép tải lên được phát hiện!"
+upload_error_1: "Cỡ của tập tin quá giới hạn upload_max_filesize chỉ dẫn."
+upload_error_2: "Cỡ của tập tin quá giới hạn của cỡ file chỉ định."
+upload_error_34: "Sự tải lên đã bị lối! Xin vui lòng liên lạc với hostmaster để được giúp đỡ!"
+upload_error_6: "Thư mục tải lên bị thiếu! Xin vui lòng liên lạc với hostmaster để được giúp đỡ!"
+upload_error_7: "Đĩa ghi bị lỗi! Xin vui lòng liên lạc với hostmaster để được giúp đỡ!"
+upload_error_8: "Phát hiện PHP sai! Xin vui lòng liên lạc với hostmaster để được giúp đỡ!"
+upload_limit_exceeded: "Đã quá giới hạn tải lên"
+
+notifications_message: |
+ <center>
+ <p><strong>Xin chào.</strong></p>
+ <p><strong>Email này là để thông báo cho bạn rằng các tập tin tải lên sau đây đã bị chặn:</strong></p>
+ <p>%s</p>
+ <p><strong>Lý do tại sao điều này xảy ra:</strong></p>
+ <p>%s</p>
+ <p><strong>Thời điểm điều này xảy ra:</strong></p>
+ <p>%s</p>
+ </center>
+notifications_subject: "Thông báo về việc tải lên bị chặn"

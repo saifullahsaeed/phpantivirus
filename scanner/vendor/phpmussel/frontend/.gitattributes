@@ -1,0 +1,16 @@
+# Refer to:
+# https://help.github.com/articles/dealing-with-line-endings/
+
+* text eol=lf
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+
+# Refer to:
+# https://github.com/github/linguist
+
+*.md linguist-documentation
+*.txt linguist-documentation
+
+.github/* -linguist-detectable

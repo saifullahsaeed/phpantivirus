@@ -1,0 +1,63 @@
+##\
+# This file is a part of the phpMussel\CLI package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: French language data (last modified: 2020.07.04).
+##/
+
+bad_command: "Je ne comprends pas cette commande, désolé."
+cli_algo_not_supported: "L'algorithme spécifié n'est pas supporté."
+cli_failed_to_complete: "Échec du terminer le processus d'analyse"
+cli_is_not_a: "%s n'est pas un fichier ou un répertoire."
+cli_ln2: |
+ Merci d'utiliser phpMussel, un script PHP pour la détection de virus,
+ logiciels malveillants et autres menaces dans les fichiers téléchargés sur
+ votre système partout où le script est accroché, basé sur les signatures
+ de ClamAV et autres.
+                                     ~ ~ ~
+ PHPMUSSEL COPYRIGHT 2013 et au-delà GNU/GPL V.2 par Caleb M (Maikuolan).
+                                     ~ ~ ~
+cli_ln3: |
+ Exécute actuellement phpMussel en mode CLI (Interface Ligne de Commande).
+ Pour analyser un fichier ou répertoire, tapez « scan », suivi par le nom
+ du fichier ou répertoire que vous voulez que phpMussel analyse et appuyez
+ sur Entrée ; Tapez « c » et appuyez sur Entrée pour une liste de commandes
+ du mode CLI ; Tapez « q » et appuyez sur Entrée pour quitter.
+cli_pe1: "Pas un valide PE fichier !"
+cli_pe2: "Sections du PE :"
+cli_signature_placeholder: "NOM-DE-SIGNATURE"
+cli_working: "En cours"
+cli_commands: |
+ q
+ - Quitter CLI.
+ - Alias : quit, exit.
+ hash_file:[algo] [nom du fichier]
+ - Générer les signatures hachage des fichiers.
+ hash:[algo] [chaîne]
+ - Générer une signature hachage à partir d'une chaîne.
+ algo
+ - Lister tous les algorithmes disponibles.
+ hex_encode [chaîne]
+ - Convertir une chaîne binaire en hexadécimal.
+ - Alias : x.
+ hex_decode [chaîne]
+ - Convertir hexadécimal en chaîne binaire.
+ base64_encode [chaîne]
+ - Convertir chaîne binaire en chaîne base64.
+ - Alias : b.
+ base64_decode [chaîne]
+ - Convertir chaîne base64 en chaîne binaire.
+ pe_meta [nom du fichier]
+ - Extraire les métadonnées d'un fichier PE.
+ url_sig [chaîne]
+ - Générer des signatures de scanner d'URL.
+ scan [nom du fichier ou du répertoire]
+ - Analyser un fichier ou un répertoire.
+ - Alias : s.
+ c
+ - Imprimer cette liste des commandes.

@@ -1,0 +1,43 @@
+##\
+# This file is a part of the phpMussel\Web package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: German language data (last modified: 2020.07.13).
+##/
+
+PrivacyPolicy: "Datenschutz-Bestimmungen"
+config_web: "Konfiguration für den Upload-Handler."
+config_web_forbid_on_block: "Zurückgegebener 403-HTTP-Header bei einem blockierten Dateiupload. False = Nein (200); True = Ja (403) [Standardeinstellung]."
+config_web_ignore_upload_errors: "Diese Direktive sollte generell AUS geschaltet bleiben sofern es nicht für die korrekte Funktion von phpMussel auf Ihrem System benötigt wird. Normalerweise, sobald phpMussel bei AUS geschalteter Direktive ein Element in <code>$_FILES</code> array() erkennt, wird es beginnen, die Dateien, die diese Elemente repräsentieren, zu überprüfen, sollten diese Elemente leer sein, gibt phpMussel eine Fehlermeldung zurück. Dies ist das normale Verhalten von phpMussel. Bei einigen CMS werden allerdings als normales Verhalten leere Elemente in <code>$_FILES</code> zurückgegeben oder Fehlermeldungen ausgelöst, sobald sich dort keine leeren Elemente befinden, in diesem Fall tritt ein Konflikt zwischen dem normalen Verhalten von phpMussel und dem CMS auf. Sollte eine solche Konstellation bei Ihrem CMS zutreffen, so stellen Sie diese Option AN, phpMussel wird somit nicht nach leeren Elementen suchen, Sie bei einem Fund ignorieren und keine zugehörigen Fehlermeldungen ausgeben, der Request zum Seitenaufruf kann somit fortgesetzt werden. False = AUS/OFF; True = AN/ON."
+config_web_magnification: "Schriftvergrößerung. Standardeinstellung = 1."
+config_web_max_uploads: "Maximale erlaubte Anzahl zu überprüfender Dateien während eines Dateiuploads bevor der Scan abgebrochen und der Nutzer darüber informiert wird, dass er zu viele Dateien auf einmal hochgeladen hat. Bietet einen Schutz gegen den theoretischen Angriff eines DDoS auf Ihr System oder CMS, indem der Angreifer phpMussel überlastet und den PHP-Prozess zum Stillstand bringt. Empfohlen: 10. Sie können den Wert abhängig von Ihrer Hardware erhöhen oder senken. Beachten Sie, dass dieser Wert nicht den Inhalt von Archiven berücksichtigt."
+config_web_theme: "Die Ästhetik für die Seite "Upload verweigert"."
+config_web_uploads_log: "Wo sollen alle blockierten Uploads protokolliert werden. Geben Sie einen Dateinamen an oder lassen Sie die Option zum Deaktivieren leer."
+denied: "Upload verweigert!"
+denied_reason: "Der Upload wurde aus den unten aufgeführten Gründen blockiert:"
+scan_unauthorised_upload: "Unerlaubte Upload-Manipulation erkannt!"
+scan_unauthorised_upload_or_misconfig: "Unerlaubte Upload-Manipulation oder Fehlkonfiguration erkannt!"
+upload_error_1: "Dateigröße überschreitet die Richtlinie upload_max_filesize."
+upload_error_2: "Dateigröße überschreitet die im Formular angegebene Dateigröße."
+upload_error_34: "Upload gescheitert! Bitte kontaktieren Sie den Hostmaster für Unterstützung!"
+upload_error_6: "Fehlendes Uploadverzeichnis! Bitte kontaktieren Sie den Hostmaster für Unterstützung!"
+upload_error_7: "Festplatten-Schreibfehler! Bitte kontaktieren Sie den Hostmaster für Unterstützung!"
+upload_error_8: "PHP-Fehlkonfiguration erkannt! Bitte kontaktieren Sie den Hostmaster für Unterstützung!"
+upload_limit_exceeded: "Uploadlimit überschritten"
+
+notifications_message: |
+ <center>
+ <p><strong>Hallo.</strong></p>
+ <p><strong>Diese E-Mail informiert Sie darüber, dass die folgenden Datei-Uploads blockiert wurden:</strong></p>
+ <p>%s</p>
+ <p><strong>Warum es passiert ist:</strong></p>
+ <p>%s</p>
+ <p><strong>Wann es passiert ist:</strong></p>
+ <p>%s</p>
+ </center>
+notifications_subject: "Blockierte Upload"

@@ -1,0 +1,364 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+      #####################################################################################
+      #  Electronic Questionnaires for Investigations Processsing (e-QIP) Applicant Web Application, version 3.31
+      #  Diagnostic Information: CV#39cd0930-b26c-4150 P#
+      #####################################################################################
+    -->
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81139049-1"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'UA-81139049-1');
+    </script>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="session-timeout" content="900">
+    <meta name="page-context" content="/eqip-applicant">
+
+    
+    <link rel="shortcut icon" type="image/png" href="/eqip-applicant/static/generated/img/opm-seal-favicon.png">
+    <link rel="stylesheet" href="/eqip-applicant/static/generated/css/index.css">
+
+    
+
+    <script type="text/javascript">
+      // <![CDATA[
+      window.nonce = "5787595365686965784344030580368234586701";
+      // ]]>
+    </script>
+
+    <title>Login :: Identify Yourself to the e-QIP System</title>
+  </head>
+  <body data-eqip-env="prod">
+    <div id="eqip-wrapper">
+      <div class="eqip-env-banner">
+        
+          
+          
+          
+          
+          
+          
+          prod
+        
+      </div>
+      <div class="usa-banner">
+        <div class="usa-accordion">
+          <header class="usa-banner-header">
+            <div class="usa-grid usa-banner-inner">
+              
+
+
+
+
+
+
+<img src="/eqip-applicant/static/generated/img/us-flag-small.png" alt="U.S. flag" class="" id="" />
+
+
+              <p>An official website of the United States government</p>
+              <button class="usa-accordion-button usa-banner-button"
+                      aria-expanded="false" aria-controls="gov-banner">
+                <span class="usa-banner-button-text">Here's how you know</span>
+              </button>
+            </div>
+          </header>
+          <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+            <div class="usa-banner-guidance-gov usa-width-one-half">
+              
+
+
+
+
+
+
+<img src="/eqip-applicant/static/generated/img/icon-dot-gov.svg" alt="Dot gov" class="usa-banner-icon usa-media_block-img" id="" />
+
+
+              <div class="usa-media_block-body">
+                <p>
+                  <strong>The .gov means it's official.</strong>
+                  <br>
+                  Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure
+                  you're on a federal government site.
+                </p>
+              </div>
+            </div>
+            <div class="usa-banner-guidance-ssl usa-width-one-half">
+              
+
+
+
+
+
+
+<img src="/eqip-applicant/static/generated/img/icon-https.svg" alt="Https" class="usa-banner-icon usa-media_block-img" id="" />
+
+
+              <div class="usa-media_block-body">
+                <p>
+                  <strong>The site is secure.</strong>
+                  <br>
+                  The <strong>https://</strong> ensures that you are connecting to the official website and that any
+                  information you provide is encrypted and transmitted securely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header id="eqip-header" class="eqip-layout" role="banner">
+        <div id="eqip-brand" class="eqip-layout-sidebar">
+          
+
+
+
+
+
+
+<img src="/eqip-applicant/static/generated/img/US-OfficeOfPersonnelManagement-Seal.svg" alt="U.S. Office of Personnel Management Seal" class="" id="" />
+
+
+          <h1>e-QIP</h1>
+          
+        </div>
+        <div class="eqip-header-titles-links-container eqip-layout-content">
+          <div id="eqip-header-titles">
+            <div>
+              
+                <h3>Login</h3>
+              
+              <h2>Identify Yourself to the e-QIP System</h2>
+            </div>
+          </div>
+          <div class="eqip-header-links">
+            <ul>
+              
+                <li>
+                  <a href="/eqip-applicant/applicant/Help/login-welcome.html" target="_blank"
+                     title="Help - Open help about using this screen in a separate window.">Help</a>
+                </li>
+              
+              
+              
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="eqip-header-progress-container">
+        
+        <div style="width:0%;"></div>
+      </div>
+      <div id="eqip-main-container" class="eqip-layout">
+        
+    <main id="eqip-main" class="eqip-layout-content">
+      <div class="usa-grid">
+        
+    <div style="padding-bottom: 25px;" class="eqip-login-govt-warning">
+      <h4>
+        The United States Government
+        <br/>
+        U.S. Office of Personnel Management (OPM)
+      </h4>
+      <p>
+        Only persons specifically authorized to do so may access this data. Unauthorized
+        attempts to pass this screen, as well as any use of data in this system for purposes
+        other than those authorized by OPM, are a violation of federal law and/or regulation.
+        Violators are subject to disciplinary action and prosecution.
+      </p>
+      <p>
+        This application is designed to collect sensitive but unclassified data which
+        will be maintained and protected as such by the United States Government.
+        Users must not enter Classified information into this system.
+      </p>
+      <p>
+        This U. S. government system is to be used by authorized users only. Information
+        from this system resides on computer systems funded by the government. The data and
+        documents on this system include Federal records that may contain sensitive information
+        protected by various Federal statutes, including the Privacy Act, 5 U.S.C. &#167; 552a.
+        All access or use of this system constitutes user understanding and acceptance of
+        these terms and constitutes unconditional consent to review, monitoring and action
+        by all authorized government and law enforcement personnel. While using this system
+        your use may be monitored, recorded and subject to audit. Unauthorized user attempts
+        or acts to (1) access, upload, change, or delete or deface information on this system,
+        (2) modify this system, (3) deny access to this system, (4) accrue resources for
+        unauthorized use or (5) otherwise misuse this system are strictly prohibited. Such
+        attempts or acts are subject to action that may result in criminal, civil, or
+        administrative penalties.
+      </p>
+      <p>
+        <b>Free Wi-Fi access points are not secure.</b> The information collected through the e-QIP process is sensitive
+        and should never be transmitted over free public Wi-Fi access points. Bad actors can easily intercept any data
+        travelling across these unsecure connections. Protect your data by only using secure, encrypted connections.
+      </p>
+    </div>
+
+    <div class="usa-grid">
+
+      <div class="usa-width-one-half">
+        <p>
+          If you already have an e-QIP account, sign in below. If you cannot change your password or remember
+          your username contact your sponsoring agency.
+        </p>
+
+        
+
+
+
+
+
+
+
+
+
+  <div class="usa-alert usa-alert-error  usa-alert-slim" role="alert">
+    <div class="usa-alert-body">
+      <h3 class="usa-alert-heading">Error Status</h3>
+      <p class="usa-alert-text">
+        <ul>
+          
+            <li>Your session has expired.</li>
+          
+        </ul>
+      </p>
+
+    </div>
+  </div>
+
+
+
+
+
+        <form id="loginForm" class="eqip-login-form" action="verifyLogin.login" method="post" enctype="application/x-www-form-urlencoded">
+          <label for="user-name">Username</label>
+          <input id="user-name" name="username" pattern=".*" type="text" value="" maxlength="255"/>
+
+          <label for="user-password">Password</label>
+          <input id="user-password" name="password" type="password" value="" autocomplete="off"/>
+
+          <input id="changePassword1" name="changePassword" type="checkbox" value="true"/><label for="changePassword1">Change My Password</label><input type="hidden" name="_changePassword" value="on"/>
+
+          <button type="submit" class="usa-button usa-button-primary" value="Submit">Submit</button>
+          <input type="hidden" name="eqip-nonce" value="5787595365686965784344030580368234586701"/>
+
+          <a href="login/reset/enterUsername.login" title="Forgot Password">Forgot Password</a>
+        </form>
+
+      </div>
+
+      <div class="usa-width-one-half eqip-login-register-block">
+        <p>
+          If you do not have an e-QIP account, or your account has been reset, click the
+          button below to begin the registration process.
+        </p>
+        <div class="register-button-container">
+          <a href="login/register/beginRegistration.login"
+             class="usa-button usa-button-primary"
+             title="Register for Username and Password">
+            Register for Username and Password
+          </a>
+        </div>
+      </div>
+    </div>
+  
+      </div>
+    </main>
+  
+      </div>
+    </div>
+    <div class="eqip-footer" role="region" aria-label="Footer">
+      <div id="eqip-version">
+          <span>
+            e-QIP 3.31
+            
+              (PROD)
+            
+          </span>
+      </div>
+    </div>
+    
+    
+
+<noscript>
+  <div class="eqip-modal-overlay" style="display:block;">
+    <div class="eqip-modal" role="alert">
+      <h2 class="eqip-modal-header eqip-text-center">Scripting is required to use e-QIP.</h2>
+      <p>If you do not know how to enable JavaScript in your browser, contact your sponsoring agency for help.</p>
+    </div>
+  </div>
+</noscript>
+
+    
+
+<div id="eqip-modal-confirm-delete" class="eqip-modal-overlay" role="dialog">
+  <div class="eqip-modal eqip-modal-confirm" aria-modal="true">
+    <p>Do you really want to delete this entry?</p>
+    <div class="usa-grid-full">
+      <div class="usa-width-one-half">
+        <button data-modal-option="yes" class="usa-button-big">Yes</button>
+      </div>
+      <div class="usa-width-one-half">
+        <button data-modal-option="no" class="usa-button-big">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+<div id="timeout-overlay" class="eqip-modal-overlay eqip-modal-overlay-opaque">
+  <div class="eqip-modal" role="alert">
+    <h2 class="eqip-modal-header eqip-text-center">Your session will expire soon</h2>
+    <p>Move your mouse or press a key to keep your session active.</p>
+  </div>
+</div>
+    <script type="text/javascript" src="/eqip-applicant/static/generated/login-bundle.js"></script>
+    <script>LoginApplication.run();</script>
+  </body>
+</html>

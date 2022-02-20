@@ -1,0 +1,69 @@
+##\
+# This file is a part of the phpMussel\Core package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Turkish language data (last modified: 2021.03.20).
+##/
+
+# Language settings.
+Local Name: "Türkçe"
+Text Direction: "ltr"
+IntegerRule: "int2Type4"
+FractionRule: "int1"
+
+SafeBrowseLookup_200: "Potansiyel olarak zararlı URL tespit edildi"
+SafeBrowseLookup_400: "API istek hatası"
+SafeBrowseLookup_401: "API yetkilendirme hatası"
+SafeBrowseLookup_503: "API hizmeti kullanılamıyor"
+SafeBrowseLookup_999: "Bilinmeyen API hatası"
+corrupted: "Bozuk PE saptandı"
+data_not_available: "Veri mevcut değil."
+detected: "%s algılandı"
+detected_control_characters: "Algılanan kontrol karakterleri"
+encrypted_archive: "Algılanan şifreli arşiv; Şifrelenmiş arşivlere izin verilmiyor"
+error_log_header: "Aşağıdaki hatalardan herhangi biri devam ederse, bildirmek veya destek almak için, lütfen boş zamanınız olduğunda GitHub'daki phpMussel issue-ları sayfasında yeni bir issue yaratın ve ilgili hataları, ilgili diğer bilgilerle birlikte ekleyin. Thanks."
+failed_to_access: ""%s" erişilemedi!"
+field_date: "Tarih"
+field_header_hash_reconstruction: "Karma imzaları rekonstrüksiyonu"
+field_header_pe_reconstruction: "PE kesit imzaları rekonstrüksiyonu"
+field_header_scan_results_why_flagged: "Tarama sonuçları (neden işaretlendi)"
+field_ip_address: "IP adresi"
+file: "Dosya"
+filesize_limit_exceeded: "Dosya boyutu sınırı aşıldı"
+filetype_blacklisted: "Filetype kara listeye alındı"
+finished: "Bitirdi"
+generated_by: "%s tarafından üretildi"
+grammar_brackets: "%s (%s)"
+grammar_exclamation_mark: "%s!"
+grammar_fullstop: "%s."
+grammar_spacer: " "
+image: "Resim"
+invalid_data: "Geçersiz veri!"
+invalid_file: "Geçersiz dosya!"
+invalid_url: "Geçersiz URL!"
+macros_not_permitted: "Makrolara izin verilmez"
+only_allow_images: "Yalnızca resim dosyalarına izin verilir"
+quarantined_as: ""%s.qfu" olarak karantinaya alındı."
+recursive: "Yineleme derinliği sınırı aşıldı"
+response_error: "Hata"
+scan_chameleon: "%s bukalemun saldırısı tespit edildi"
+scan_checking: ""%s" kontrol ediliyor."
+scan_command_injection: "Komuta enjeksiyon girişimi tespit edildi"
+scan_complete: "Tamamlayınız"
+scan_extensions_missing: "Başarısız oldu (gerekli uzantıları eksik)!"
+scan_filename_manipulation_detected: "Dosya adı işleme algılandı"
+scan_missing_filename: "Dosya adı eksik"
+scan_no_problems_found: "Hiçbir sorun bulunamadı."
+scan_reading: "Okuma"
+scan_signature_file_missing: "İmza dosyası eksik"
+scan_tampering: "Potansiyel olarak tehlikeli dosyaların değiştirilmesi algılandı"
+started: "Başlatılan"
+state_failed_missing: "Gerekli bir bileşen kullanılamaması nedeniyle görev başarısız oldu."
+too_many_files_in_archive: "Arşivde çok fazla dosya var"
+too_many_urls: "Çok fazla URL'ler"
+x_does_not_exist: "%s mevcut değil"

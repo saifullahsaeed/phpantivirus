@@ -1,0 +1,43 @@
+##\
+# This file is a part of the phpMussel\Web package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Turkish language data (last modified: 2020.07.13).
+##/
+
+PrivacyPolicy: "Gizlilik Politikası"
+config_web: "Yükleme işleyicisi için yapılandırma."
+config_web_forbid_on_block: "phpMussel, dosya yüklemesi engellenen mesajla birlikte hangi başlıkları göndermelidir? Yanlış/False = 200 OK (Tamam); Doğru/True = 403 Forbidden (Yasak) [Varsayılan]."
+config_web_ignore_upload_errors: "Bu yönerge genelde, phpMussel'ın sizin belirli sisteminizde düzgün çalışması için gerekliyse devre dışı bırakılmalıdır. Normalde devre dışı bırakıldığında, phpMussel <code>$_FILES</code> array() içindeki öğelerin varlığını tespit ettiğinde, bu elemanların temsil ettiği dosyaların bir taramasını başlatmaya çalışacaktır, ve, bu elemanlar boşsa, phpMussel bir hata mesajı döndürür. Bu, phpMussel için doğru davranıştır. Bununla birlikte, bazı CMS için <code>$_FILES</code> daki boş öğeler, bu CMS'nin doğal davranışının bir sonucu olarak ortaya çıkabilir veya herhangi bir şey olmadığında hata raporlanabilir, ve bu durumda, phpMussel için normal davranış, o CMS'nin normal davranışını engelleyecektir. Böyle bir durum sizin için ortaya çıkarsa, bu seçeneği etkinleştirmek bu tarama türlerini önlemeniz yoluyla yardımcı olacaktır, böylece sayfa talebinin devam etmesine izin verilir. Yanlış/False = Kapalı; Doğru/True = Açık."
+config_web_magnification: "Yazı tipi büyütme. Varsayılan = 1."
+config_web_max_uploads: "Yükleme taraması sırasında taranacak maksimum dosya sayısı. Bu sayıyı aşmak taramayı durduracak ve kullanıcıya çok fazla yükleme yaptıkları bildirilecektir! Sisteminizi veya CMS'nizi DDoS girişiminde bulunduran teorik bir saldırıya karşı koruma sağlar. Tavsiye edilen: 10. Donanımınızın hızına bağlı olarak bu sayıyı yükseltebilir veya azaltabilirsiniz. Bu numaranın arşiv içeriğini hesaba katmadığını unutmayın."
+config_web_theme: ""Yükleme Reddedildi" sayfası için kullanılacak estetik."
+config_web_uploads_log: "Engellenen tüm yüklemelerin nereye kaydedileceği. Dosya adı belirtin veya devre dışı bırakmak için boş bırakın."
+denied: "Yükleme Reddedildi!"
+denied_reason: "Yükleme aşağıda belirtilen nedenlerle engellendi:"
+scan_unauthorised_upload: "Yetkisiz dosya yükleme işi algılandı!"
+scan_unauthorised_upload_or_misconfig: "Yetkisiz dosya yükleme manipülasyonu veya yanlış yapılandırma algılandı!"
+upload_error_1: "Dosya boyutu upload_max_filesize yönergesini aşıyor."
+upload_error_2: "Dosya boyutu form tanımlı dosya boyutu sınırını aşıyor."
+upload_error_34: "Yükleme hatası! Lütfen yardım için hostmaster ile iletişime geçin!"
+upload_error_6: "Yükleme dizini eksik! Lütfen yardım için hostmaster ile iletişime geçin!"
+upload_error_7: "Disk yazma hatası! Lütfen yardım için hostmaster ile iletişime geçin!"
+upload_error_8: "PHP yanlış yapılandırması tespit edildi! Lütfen yardım için hostmaster ile iletişime geçin!"
+upload_limit_exceeded: "Yükleme sınırı aşıldı"
+
+notifications_message: |
+ <center>
+ <p><strong>Merhaba.</strong></p>
+ <p><strong>Bu e-posta, size aşağıdaki dosya yüklemelerinin engellendiğini bildirmek içindir:</strong></p>
+ <p>%s</p>
+ <p><strong>Bu neden oldu:</strong></p>
+ <p>%s</p>
+ <p><strong>Bu ne zaman oldu:</strong></p>
+ <p>%s</p>
+ </center>
+notifications_subject: "Engellenen yükleme bildirimi"

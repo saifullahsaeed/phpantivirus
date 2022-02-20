@@ -1,0 +1,63 @@
+##\
+# This file is a part of the phpMussel\CLI package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Polish language data (last modified: 2020.07.04).
+##/
+
+bad_command: "Przepraszam, nie rozumiem tego polecenia."
+cli_algo_not_supported: "Określony algorytm nie jest obsługiwany."
+cli_failed_to_complete: "Nie udało się ukończyć procesu skanowania"
+cli_is_not_a: "%s nie jest plikiem ani katalogiem."
+cli_ln2: |
+ Dziękujemy za korzystanie z phpMussel, skrypt PHP przeznaczony do wykrywania
+ trojanów, wirusów, złośliwego oprogramowania i innych zagrożeń w plikach
+ przesyłanych do systemu, gdziekolwiek skrypt jest zaczepiony, na podstawie
+ podpisów ClamAV i innych.
+                                     ~ ~ ~
+ PHPMUSSEL COPYRIGHT 2013 i późniejsze GNU/GPLv2 przez Caleb M (Maikuolan).
+                                     ~ ~ ~
+cli_ln3: |
+ Obecnie uruchomiony phpMussel w trybie CLI (interfejs wiersza poleceń). Aby
+ przeskanować plik lub katalog, wpisz „scan”, następnie nazwa pliku lub
+ katalogu, który ma zostać przeskanowany przez phpMussel, i naciśnij Enter;
+ Wpisz „c” i naciśnij klawisz Enter, aby wyświetlić listę poleceń trybu CLI;
+ Wpisz „q” i naciśnij Enter, aby wyjść.
+cli_pe1: "Nieprawidłowy plik PE!"
+cli_pe2: "Sekcje PE:"
+cli_signature_placeholder: "TWOJE-NAZWA-PODPISY"
+cli_working: "Praca w toku"
+cli_commands: |
+ q
+ - Zamknij CLI.
+ - Aliasy: quit, exit.
+ hash_file:[algo] [nazwa pliku]
+ - Wygeneruj podpisy skrótów z plików.
+ hash:[algo] [dane]
+ - Wygeneruj signature hash z ciągu.
+ algo
+ - Wyświetl wszystkie obsługiwane algorytmy.
+ hex_encode [dane]
+ - Konwertuj dane binarne na szesnastkowe.
+ - Alias: x.
+ hex_decode [dane]
+ - Konwertuj dane szesnastkowe na binarne.
+ base64_encode [dane]
+ - Konwertuj dane binarne na dane base64.
+ - Alias: b.
+ base64_decode [dane]
+ - Konwertuj dane base64 na dane binarne.
+ pe_meta [nazwa pliku]
+ - Wyodrębnij metadane z pliku PE.
+ url_sig [dane]
+ - Wygeneruj podpisy skanera adresów URL.
+ scan [nazwa pliku lub katalogu]
+ - Zeskanuj plik lub katalog.
+ - Alias: s.
+ c
+ - Wydrukuj tę listę poleceń.

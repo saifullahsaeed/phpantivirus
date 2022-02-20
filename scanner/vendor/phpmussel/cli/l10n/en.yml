@@ -1,0 +1,69 @@
+##\
+# This file is a part of the phpMussel\CLI package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: English language data (last modified: 2020.07.04).
+##/
+
+# CLI-mode ASCII art.
+cli_ln1: |
+ ..   _____  _     _  _____  _______ _     _ _______ _______ _______
+ .   |_____] |_____| |_____] |  |  | |  .  | |______ |______ |______ |  .
+     |       |     | |       |  |  | |_____| ______| ______| |______ |_____
+
+bad_command: "I don't understand that command, sorry."
+cli_algo_not_supported: "Specified algorithm isn't supported."
+cli_failed_to_complete: "Failed to complete scanning process"
+cli_is_not_a: "%s is not a file or directory."
+cli_ln2: |
+ Thank you for using phpMussel, a PHP script designed to detect trojans,
+ viruses, malware, and other threats within files uploaded to your system
+ wherever the script is hooked, based on the signatures of ClamAV and
+ others.
+                                     ~ ~ ~
+ PHPMUSSEL COPYRIGHT 2013 and beyond GNU/GPLv2 by Caleb M (Maikuolan).
+                                     ~ ~ ~
+cli_ln3: |
+ Currently running phpMussel in CLI mode (command line interface). To scan
+ a file or directory, type "scan", followed by the name of the file or
+ directory that you want phpMussel to scan and press Enter; Type "c" and
+ press Enter for a list of CLI mode commands; Type "q" and press Enter to
+ quit.
+cli_pe1: "Not a valid PE file!"
+cli_pe2: "PE Sections:"
+cli_signature_placeholder: "YOUR-SIGNATURE-NAME"
+cli_working: "In progress"
+cli_commands: |
+ q
+ - Quit CLI.
+ - Aliases: quit, exit.
+ hash_file:[algo] [filename]
+ - Generate hash signatures from files.
+ hash:[algo] [string]
+ - Generate hash signature from string.
+ algo
+ - List all supported algorithms.
+ hex_encode [string]
+ - Convert binary string to hexadecimal.
+ - Alias: x.
+ hex_decode [string]
+ - Convert hexadecimal to binary string.
+ base64_encode [string]
+ - Convert binary string to base64 string.
+ - Alias: b.
+ base64_decode [string]
+ - Convert base64 string to binary string.
+ pe_meta [filename]
+ - Extract metadata from a PE file.
+ url_sig [string]
+ - Generate URL scanner signatures.
+ scan [name of the file or directory]
+ - Scan a file or directory.
+ - Alias: s.
+ c
+ - Print this command list.
